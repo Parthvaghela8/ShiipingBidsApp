@@ -1,0 +1,46 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>ShippingWars</title>
+</head>
+<body>
+    
+        <nav class="navbar">
+        <div class="container">
+            <div class="navbar-logo" onclick="AllShipments()">
+                <img src="./assets/image/logo.png" height="90vh" class="logo"  alt="">
+            </div>
+            <ul class="navbar-menu">
+                <li onclick="AllShipments()"><a href="#">Home</a></li>
+                <li onclick="createShipmentForm()"><a href="#">Add Shipments</a></li>
+                <li><a href="#">contact Deatails</a></li>
+                <li><a href="#">User Details</a></li>
+                <!-- <li onclick="logout()">Logout</li> -->
+            </ul>
+            <div class="navbar-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+    <div id="cards-container"></div>
+    <footer>
+        <p>&copy; 2024 ShippingWars. All rights reserved.</p>
+    </footer>
+    <main id="content">
+        
+    </main>
+    
+    <script src="./JS/index.js"></script>
+    <script src="./JS/addshipments.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
