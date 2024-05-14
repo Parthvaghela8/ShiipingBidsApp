@@ -1,7 +1,7 @@
 
 const loadLogin = () => {
     const clientId = '489181812151-bte29cvu56q2o821aj6hcvankntbpnd7.apps.googleusercontent.com'; // Replace with your actual client ID
-    const redirectUri = 'http://ec2-54-220-202-86.eu-west-1.compute.amazonaws.com:3000'; // Replace with your actual redirect URI
+    const redirectUri = 'http://shippingwars.projects.bbdgrad.com:3000'; // Replace with your actual redirect URI
     const scope = 'email profile openid';
 
     // Construct Google OAuth URL with OpenID Connect for ID token
